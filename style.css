@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Roboto:wght@900&display=swap');
+
+  body {
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    justify-content: center;
+    display: grid;
+}
+.firstimage {
+    height: 300px;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px;
+   
+}
+.box {
+    
+    margin-top: 50px;
+    background-color: hsl(216, 50%, 16%);
+    width: 320px;
+    border-radius: 10px 10px 10px 10px;
+   text-align: left;
+}
+
+.group {
+    position: relative;
+    left: 20px;
+    justify-content: left;
+}
+
+.man {
+    height: 30px;
+    border: white solid 1px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+ .Equi {
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+font-weight: bold;
+margin-top: 15px;
+margin-bottom: 15px;
+
+}
+ .ETH {
+    color:  hsl(178, 100%, 50%);
+ }
+ 
+.day {
+    color: hsl(215, 51%, 70%);
+} 
+header {
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 15px;
+}
+    
+.collection {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+hr {
+    border: white solid 1px;
+    width: 280px;
+}
+
+.attribution {
+    margin: 10px 10px 10px 10px;
+}
+h5 {
+font-weight: lighter;
+color: hsl(215, 51%, 70%);
+padding: 10px;
+}
+.days {
+    display: flex;
+    justify-content: space-around;
+}
+span {
+color: hsl(0, 0%, 100%);
+}
+.Creation {
+    display: flex;
+    align-items: center;
+}
+.Equi:hover{
+    color: aqua;
+}
+ .images {
+    position: relative;
+ }
+span:hover{
+    color: aqua;
+}
